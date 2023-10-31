@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="header">
+        <!-- Judul -->
+        <div class="title">OUR TASK</div>
+        <div class="sub-title general-text-font">Task Management</div>
+    </div>
+
+    <div class="container">
+
+        <div class="login general-text-font">New Password</div>
+        <!-- Input Email -->
+       
+        <!-- Input Pass -->
+        <div class="input-box">
+
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 15 18" fill="none">
+                    <path
+                        d="M7.07588 0.731476C9.63316 0.731476 11.6908 2.7438 11.6908 5.22815V6.50593C13.1261 6.95394 14.1719 8.25326 14.1719 9.80515V13.9192C14.1719 15.8405 12.5791 17.3981 10.6154 17.3981H3.56258C1.59805 17.3981 0.00524902 15.8405 0.00524902 13.9192V9.80515C0.00524902 8.25326 1.05187 6.95394 2.48632 6.50593V5.22815C2.49479 2.7438 4.55247 0.731476 7.07588 0.731476ZM7.08435 10.2184C6.67789 10.2184 6.34765 10.5413 6.34765 10.9388V12.7773C6.34765 13.183 6.67789 13.506 7.08435 13.506C7.49927 13.506 7.82952 13.183 7.82952 12.7773V10.9388C7.82952 10.5413 7.49927 10.2184 7.08435 10.2184ZM7.09282 2.18068C5.37385 2.18068 3.97666 3.53879 3.96819 5.21159V6.32623H10.209V5.22815C10.209 3.54707 8.81178 2.18068 7.09282 2.18068Z"
+                        fill="white" />
+                </svg>
+            </div>
+
+            <div class="input password">
+
+                <input type="password" id="password" placeholder="Password">
+                <!-- Logo Mata -->
+                <span class="material-symbols-outlined" id="toggleIcon">&#xe8f5;</span>
+
+            </div>
+
+        </div>
+
+         <!-- Confirm Pass -->
+         <div class="input-box">
+      
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18" viewBox="0 0 15 18" fill="none">
+                    <path d="M7.07588 0.731476C9.63316 0.731476 11.6908 2.7438 11.6908 5.22815V6.50593C13.1261 6.95394 14.1719 8.25326 14.1719 9.80515V13.9192C14.1719 15.8405 12.5791 17.3981 10.6154 17.3981H3.56258C1.59805 17.3981 0.00524902 15.8405 0.00524902 13.9192V9.80515C0.00524902 8.25326 1.05187 6.95394 2.48632 6.50593V5.22815C2.49479 2.7438 4.55247 0.731476 7.07588 0.731476ZM7.08435 10.2184C6.67789 10.2184 6.34765 10.5413 6.34765 10.9388V12.7773C6.34765 13.183 6.67789 13.506 7.08435 13.506C7.49927 13.506 7.82952 13.183 7.82952 12.7773V10.9388C7.82952 10.5413 7.49927 10.2184 7.08435 10.2184ZM7.09282 2.18068C5.37385 2.18068 3.97666 3.53879 3.96819 5.21159V6.32623H10.209V5.22815C10.209 3.54707 8.81178 2.18068 7.09282 2.18068Z" fill="white" />
+                </svg>
+            </div>
+      
+            <div class="input password">
+      
+                <input type="password" id="confirm-password" placeholder="Confirm Password" style="flex-grow: 1;">
+                
+                <!-- Logo Mata -->
+                <span class="material-symbols-outlined" id="toggleIcon-2">&#xe8f5;</span>
+      
+            </div>
+      
+        </div>
+
+        <!-- <a href="" class="general-text-font forgot-password">Forgot password?</a> -->
+
+    </div>
+
+    <!-- Login -->
+    <button class="general-text-font login-btn" onclick="login()">Change Password</button>
+
+    <div class="sign-up">
+
+        <!-- <label for="" class="general-text-font sign-up-text">Don't have an account?</label> -->
+
+        <!-- <a href="register.html" class="general-text-font sign-up-text">Sign Up</a> -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
